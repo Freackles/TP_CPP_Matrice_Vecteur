@@ -1,5 +1,4 @@
 #include "cVecteur.h"
-#include "cMatrice.h"
 #include <iostream>
 
 cVecteur::cVecteur(float fltX2, float fltY2, float fltZ2)

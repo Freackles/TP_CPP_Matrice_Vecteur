@@ -1,12 +1,14 @@
 #pragma once
-#include "cVecteur.h"
+
+//déclaration foward
+class cVecteur;
 
 class cMatrice
 {
 private:
-	friend class cVecteur;
+	
 	//données membre de la classe
-	int NMat[3][3];
+	int NMat[3][3] = { 0 };
 
 public:
 	//prototypes

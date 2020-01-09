@@ -4,7 +4,7 @@
 
 class cVecteur
 {
-	friend class cMatrice;
+	
 protected:
 	//données membre de la classe
 	float fltX, fltY, fltZ;

@@ -138,6 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cMatrice.h" />
+    <ClInclude Include="cVecteur.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMatrice.cpp" />
+    <ClCompile Include="cVecteur.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
